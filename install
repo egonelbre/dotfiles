@@ -1,4 +1,5 @@
 #!/bin/bash
 
 ln -s "$(pwd)/dotbashrc" ~/.bashrc
+ln -s "$(pwd)/dotprofile" ~/.profile
 ln -s "$(pwd)/xcompose/dotXCompose" ~/.XCompose
