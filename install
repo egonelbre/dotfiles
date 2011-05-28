@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ln -s "$(pwd)/dotbashrc" ~/.bashrc
+ln -s "$(pwd)/xcompose/dotXCompose" ~/.XCompose
