@@ -1,5 +1,7 @@
 alias g='git'
 alias sagi='sudo apt-get install'
+alias ack="ack-grep"
+
 PS1="\[\e[32;1m\]\t \[\033[01;34m\]\W ∫ \[\e[0m\]"
 
 function AddPath {
