@@ -1,0 +1,25 @@
+[user]
+    name = Egon Elbre
+    email = egonelbre@gmail.com
+
+[alias]
+    d = difftool
+    st = status
+    ci = commit
+    b = branch 
+    br = branch -av
+    co = checkout
+    df = diff
+    # lg = log --graph --pretty=oneline --abbrev-commit
+    lg = log --graph --pretty=format:'%Cgreen%an%Creset : %Cred%h%Creset, %C(2)%ar%Creset %n%w(60)%s'
+    rb = rebase
+    merge = merge --no-ff
+    mg = merge --no-ff
+  
+    sf = svn fetch
+    sr = svn rebase
+    sci = svn dcommit
+
+    ignore  = update-index --assume-unchanged
+    care    = update-index --no-assume-unchanged
+

@@ -1,5 +1,8 @@
 #!/bin/bash
 
-ln -s "$(pwd)/dotbashrc" ~/.bashrc
-ln -s "$(pwd)/dotprofile" ~/.profile
-ln -s "$(pwd)/xcompose/dotXCompose" ~/.XCompose
+cur=$(pwd)
+
+ln -s "$cur/bashrc" ~/.bashrc
+ln -s "$cur/profile" ~/.profile
+ln -s "$cur/gitconfig" ~/.gitconfig
+ln -s "$cur/xcompose/dotXCompose" ~/.XCompose
