@@ -12,3 +12,6 @@ function AddPath {
 
 AddPath "/home/egon/bin"
 AddPath "/home/egon/dev/go/bin"
+
+# fdn command completion
+source ~/.foundation/foundation.sh

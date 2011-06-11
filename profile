@@ -21,5 +21,9 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+if [ -d "/usr/local/cuda/bin" ] ; then
+    PATH="$PATH:/usr/local/cuda/bin"
+fi
+
 export GOROOT=/home/egon/dev/go
 export GOBIN=$GOROOT/bin
