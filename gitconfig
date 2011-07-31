@@ -2,9 +2,20 @@
     name = Egon Elbre
     email = egonelbre@gmail.com
 
+[github]
+    user = egonelbre
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = true
+    pager = true
+
 [alias]
     d = difftool
-    st = status
+    st = status -s
     ci = commit
     b = branch 
     br = branch -av
