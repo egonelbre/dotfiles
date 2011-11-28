@@ -3,6 +3,5 @@
 cur=$(pwd)
 
 ln -s "$cur/bashrc" ~/.bashrc
-ln -s "$cur/profile" ~/.profile
 ln -s "$cur/gitconfig" ~/.gitconfig
 ln -s "$cur/xcompose/dotXCompose" ~/.XCompose

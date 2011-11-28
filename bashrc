@@ -15,5 +15,8 @@ AddPath "/home/egon/bin"
 AddPath "/home/egon/dev/go/bin"
 AddPath "/var/lib/gems/1.8/bin"
 
+export GOROOT=/home/egon/dev/go
+export GOBIN=$GOROOT/bin
+
 # fdn command completion
-source ~/.foundation/foundation.sh
+# source ~/.foundation/foundation.sh
