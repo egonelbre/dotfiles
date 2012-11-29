@@ -4,4 +4,4 @@ cur=$(pwd)
 
 ln -s "$cur/bashrc" ~/.bashrc
 ln -s "$cur/gitconfig" ~/.gitconfig
-ln -s "$cur/xcompose/dotXCompose" ~/.XCompose
+#ln -s "$cur/xcompose/dotXCompose" ~/.XCompose
